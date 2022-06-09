@@ -1,0 +1,7 @@
+@model ViewModelFun.Models.Numbers
+<h1>This is an array of numbers!</h1>
+<a href="/">Home</a>
+@foreach (int num in Model.oneThruTen)
+{
+    <p>@num</p>
+}

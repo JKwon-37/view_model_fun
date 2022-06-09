@@ -1,0 +1,7 @@
+@model List<Users>
+<h1>These are the Users</h1>
+<a href="/">Home</a>
+@foreach (Users peeps in Model)
+{
+    <p>@peeps.FullName()</p>
+}
